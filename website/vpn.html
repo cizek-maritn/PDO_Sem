@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Čížek Semestrální Práce</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<header>
+  <img src="imgs/liane-logo.svg" alt="Liane">
+  <input type="checkbox" id="toggle">
+  <label for="toggle" class="toggle" data-open="Main Menu" data-close="Close Menu" onclick>Menu</label>
+  <nav id="menu">
+    <ul>
+      <li><a href="index.html">Úvod</a></li>
+      <li><a href="pripojeni.html">Prvotní připojení</a></li>
+      <li><a href="udaje.html">Správa přihlašovacích údajů</a></li>
+      <li><a href="kontakt.html">Kontaktní údaje</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="pripmain">
+  <section id="prip">
+    <h1>Jak se připojím k VPN?</h1>
+    <p><b>VPN (Virtual Private Network)</b> je způsob připojení k internetu, který vám umožní přístup k stránkám dostupných pouze v síti TUL i z domova. Pro použití VPN je potřeba nainstalovat program, který takové připojení umožní. Na stránce <a href="https://vpn.tul.cz/">TUL VPN</a> se vám objeví přihlašovací formulář s možností výběru skupiny <b>TUL</b> nebo <b>TUL_only</b> (podrobnosti najdete <a href="https://liane.tul.cz/vpn#skupina">zde</a>) a místy pro vyplnění přihlašovacího jména ve formátu <i>jmeno.prijmeni@tul.cz</i> a hesla pro vzdálený přístup.</p>
+    <img src="imgs/vpn01.png" alt="přihlášení k vpn">
+    <p>Po ověření údajů se otevře rozhraní pro stažení programu s jednotlivými kroky.</p>
+    <img src="imgs/vpn02.png" alt="rozhraní instalace vpn">
+    <p>Stiskněte tlačítko <b>Download for Windows</b> a zahájí se stahování programu Cisco AnyConnect VPN. Tlačítko <b>Instructions</b> vám ukáže instalační postup s obrázky. Úspěch instalace můžeme ověřit ikonou globusu v panelu nástrojů v pravém dolním rohu obrazovky.</p>
+    <img src="imgs/vpn03-disconnected.png" alt="vpn disconnected">
+    <p>Pro připojení k VPN stiskněte tuto ikonu. Otevře se vám okno, do kterého zadáte adresu, ke které se chcete připojit. V tomto případě to bude vpn.tul.cz. Pokračujte stisknutím tlačítka <b>Connect</b>.</p>
+    <img src="imgs/vpn04-prvni_pripojeni.png" alt="připojení k vpn">
+    <p>Do nově otevřeného okna zadejte stejné přihlašovací údaje jako dříve a stiskněte tlačítko <b>OK</b>.</p>
+    <img src="imgs/vpn05-prihlasovani.png" alt="přihlašování do vpn">
+    <p>Poté se automaticky připojíte k VPN síti a ikona globusu se změní. Pro odpojení stiskněte tlačítko <b>Disconnect</b>.</p>
+    <img src="imgs/vpn07-connected.png" alt="úspěšné připojení">
+  </section>
+  <nav id="vpnmenu">
+    <p>Navigace</p>
+    <ul>
+      <li><a href="pripojeni.html">Prvotní připojení</a></li>
+      <li><a href="prihlaseni.html">Jaké jsou mé přihlašovací údaje?</li>
+      <li><a href="wifi.html">Jak se připojím k Wi-Fi?</a></li>
+      <li><a href="vpn.html">Jak se připojím k VPN?</a></li>
+      <li><a href="zakazy.html">Co smím a nesmím dělat?</a></li>
+    </ul>
+  </nav>
+</main>
+<footer>
+  <p>Tato stránka existuje pro předmět NTI/PDO. Opravdová stránka Liane se nachází<a href="https://liane.tul.cz/">zde</a>.</p>
+</footer>
+</body>
+</html>

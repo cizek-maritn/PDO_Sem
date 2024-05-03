@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Čížek Semestrální Práce</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<header>
+  <img src="imgs/liane-logo.svg" alt="Liane">
+  <input type="checkbox" id="toggle">
+  <label for="toggle" class="toggle" data-open="Main Menu" data-close="Close Menu" onclick>Menu</label>
+  <nav id="menu">
+    <ul>
+      <li><a href="index.html">Úvod</a></li>
+      <li><a href="pripojeni.html">Prvotní připojení</a></li>
+      <li><a href="udaje.html">Správa přihlašovacích údajů</a></li>
+      <li><a href="kontakt.html">Kontaktní údaje</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="pripmain">
+  <section id="prip">
+    <h1>Jak se připojím k Wi-FI?</h1>
+    <p>Pro připojení k Wi-Fi nabízí TUL dvě sítě, Eduroam a TULwifi. Obě sítě vyžadují heslo pro vzdálený přístup. Heslo pro vzdálený přístup si vytvoříte na <a href="https://liane.tul.cz/portal/">této stránce</a> v části <b>Změna hesla pro vzdálený přístup (WiFi,VPN)</b>.</p>
+    <img src="imgs/portal.png" alt="Uživatelský portál TUL">
+    <p>Nyní se můžete připojit k síti TULwifi použitím přihlašovacího jména ve tvaru <i>jmeno.prijmeni@tul.cz</i> a hesla pro vzdálený přístup. Síť TULwifi je méně bezpečná a proto doporučujeme používat bezpečnější síť Eduroam. Pro připojení k síti Eduroam je potřeba stáhnout <b>Configuration Assistant Tool (CAT)</b> ze <a href="https://cat.eduroam.org/?idp=366">stránky eduroamu</a>.</p>
+    <p>Stránka automaticky detekuje jaký operační systém používáte a nabídne vám pro něj správný instalační soubor. Klikněte na tlačítko <b>eduroam</b> pro zahájení stahování.</p>
+    <img src="imgs/eduroam.png" alt="Stránka eduroam">
+    <p>Po stažení soubor otevřete. Otevře se okno s informací, že se jedná o soubor pro TUL. Pokračujte stisknutím tlačítka <b>Další</b>.</p>
+    <img src="imgs/cat02-vitejte.png" alt="Vítejte v instalačním programu">
+    <p>Otevře se okno s informací, že program bude fungovat pouze pokud jste členem skupiny eduroam na TUL. Pokračujte stisknutím tlačítka <b>OK</b>.</p>
+    <img src="imgs/cat03-bubu.png" alt="Varování">
+    <p>Nyní se otevře okno s místy pro zadání vašich přihlašovacích údajů, přihlašovacího jména ve formátu <i>jmeno.prijmeni@tul.cz</i> a hesla pro vzdálený přístup.</p>
+    <img src="imgs/cat04-prihlaseni.png" alt="Přihlášení do CAT">
+    <p>Zadejte údaje a stiskněte tlačítko <b>Instalovat</b>. Po dokončení instalace se můžete připojit k síti Eduroam.</p>
+    <p>V případě problémů s připojením k Wi-Fi, se kterými si neporadíte pomocí dostupných návodů, se emailem obraťte na správu Liane na adrese <i>liane@tul.cz</i>. Do emailu uveďte vámi používaný operační systém včetně jeho verze, typ vaší bezdrátové karty a popis problému.</p>
+  </section>
+  <nav id="pripmenu">
+    <p>Navigace</p>
+    <ul>
+      <li><a href="pripojeni.html">Prvotní připojení</a></li>
+      <li><a href="prihlaseni.html">Jaké jsou mé přihlašovací údaje?</li>
+      <li><a href="wifi.html">Jak se připojím k Wi-Fi?</a></li>
+      <li><a href="vpn.html">Jak se připojím k VPN?</a></li>
+      <li><a href="zakazy.html">Co smím a nesmím dělat?</a></li>
+    </ul>
+  </nav>
+</main>
+<footer>
+  <p>Tato stránka existuje pro předmět NTI/PDO. Opravdová stránka Liane se nachází<a href="https://liane.tul.cz/">zde</a>.</p>
+</footer>
+</body>
+</html>
